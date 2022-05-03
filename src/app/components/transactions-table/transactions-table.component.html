@@ -29,11 +29,11 @@
             </td>
             <td>
                 {{tx.timestamp}}<br>
-                <span class="text-muted"><small>{{tx.timestamp |date:'MMM d, y, HH:mm'}}</small></span>
+                <span class="text-muted"><small>{{tx.timestamp}}</small></span>
             </td>
             <td style="max-width: 40px;">
-                <span *ngIf="tx.isValid()">✓</span>
-                <span *ngIf="!tx.isValid()">✗</span>
+                <span *ngIf="tx.isValidTransaction()">✓</span>
+                <span *ngIf="!tx.isValidTransaction()">✗</span>
             </td>
         </tr>
     </tbody>
