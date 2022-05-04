@@ -1,5 +1,5 @@
 //@ts-ignore
-import {BlockChain} from 'CMNBlockChain/src/blockchain';
+import {BlockChain} from 'cmnblockchain/src/blockchain';
 import {Injectable } from '@angular/core';
 import {ec} from 'elliptic';
 @Injectable({

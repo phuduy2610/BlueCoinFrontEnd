@@ -19,7 +19,6 @@
     "@angular/platform-browser-dynamic": "~13.3.0",
     "@angular/router": "~13.3.0",
     "cmnblockchain": "github:phuduy2610/CMNBlockChain",
-    "CMNBlockChain": "github:phuduy2610/CMNBlockChain",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"
